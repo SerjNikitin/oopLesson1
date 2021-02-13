@@ -26,6 +26,17 @@ public class Employee {
                 name, position, email, phoneNumber, salary, age);
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", position='" + position + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", salary=" + salary +
+                ", age=" + age +
+                '}';
+    }
 }
 
 
